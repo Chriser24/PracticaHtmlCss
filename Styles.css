@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-origin:border-box;}
+
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    
+    display: grid;
+    height: 90%;
+    width: 40%;
+    gap: 10px;
+    padding: 10px;
+    
+
+    grid-template-areas: 
+    'foto1 foto3 foto5 foto5'
+    'foto1 foto4 foto6 foto7'
+    'foto2 foto4 foto8 foto8';
+}
+.foto{
+    
+    border-radius: 5px;    
+}
+
+.foto1{
+    grid-area: foto1;
+    background-image: url('https://images.pexels.com/photos/4666801/pexels-photo-4666801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+.foto2{
+    grid-area: foto2;
+    background-image: url('https://images.pexels.com/photos/1567069/pexels-photo-1567069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+.foto3{
+    grid-area: foto3;
+    background-image: url('https://images.pexels.com/photos/23764/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+.foto4{
+    grid-area: foto4;
+    background-image: url('https://images.pexels.com/photos/1624360/pexels-photo-1624360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+.foto5{
+    grid-area: foto5;
+    background-image: url('https://images.pexels.com/photos/2694037/pexels-photo-2694037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+.foto6{
+    grid-area: foto6;
+    background-image: url('https://images.pexels.com/photos/4355348/pexels-photo-4355348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+.foto7{
+    grid-area: foto7;
+    background-image: url('https://images.pexels.com/photos/1819651/pexels-photo-1819651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+.foto8{
+    grid-area: foto8;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/586072/pexels-photo-586072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+
+}
